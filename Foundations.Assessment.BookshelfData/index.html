@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Bookshelf</title>
+    <!-- LINK CSS FILE -->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <nav class="topNav">
+      <h1>The Bookshelf</h1>
+      <div>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+    <div class="bookInputs">
+      <label for="bookTitle">Book Name:</label>
+      <input type="text" id="bookTitle" />
+      <label for="bookAuthor">Book Author:</label>
+      <input type="text" id="bookAuthor" />
+      <label for="bookSubject">Book Subject:</label>
+      <input type="text" id="bookSubject" />
+      <label for="bookLanguage">Book Language:</label>
+      <input type="text" id="bookLanguage" />
+      <button id="saveButton">Save Book</button>
+    </div>
+    <div class="menu">
+      <label for="sortBooks">Sort:</label>
+      <select name="Sort" id="sortBooks">
+        <option value="A-Z">A-Z</option>
+        <option value="Z-A">Z-A</option>
+      </select>
+    </div>
+    <div class="bookshelf"></div>
+    <!-- SOURCE JS TYPE MODULE-->
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>

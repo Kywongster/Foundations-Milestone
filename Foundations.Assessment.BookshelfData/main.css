@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #ececec;
+}
+
+.about {
+  background-color: #ffffff;
+  color: #2e435e;
+  margin: 10%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact {
+  background-color: #ffffff;
+  color: #2e435e;
+  margin: 10% 30% 10% 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact > a {
+  text-decoration: none;
+  color: #385170;
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact > a:hover {
+  color: #cfcfcf;
+}
+
+.about > h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 5px;
+}
+
+.about > p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.topNav {
+  height: 75px;
+  width: 100%;
+  background-color: #385170;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topNav > h1 {
+  color: #ffffff;
+  margin: 10px;
+  font-size: 30px;
+}
+.topNav > div > a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.bookInputs {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#saveButton {
+  margin-top: 10px;
+  background-color: #c9efb1;
+}
+
+.bookshelf {
+  margin: 10px 10% 10px 10%;
+  display: flex;
+  flex-direction: column;
+  background-color: #385170;
+}
+
+.bookshelf > div {
+  margin: 20px;
+  padding: 15px;
+  border-style: solid;
+  box-sizing: border-box;
+  background-color: #a2bbbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.bookshelf > div > button {
+  margin: 10px;
+  padding: 3px;
+}
+
+.commentBox {
+  width: 100%;
+}
+
+.commentDiv {
+  margin: 3px;
+}
+
+.menu {
+  margin-left: 10%;
+  display: flex;
+  justify-content: flex-start;
+}
